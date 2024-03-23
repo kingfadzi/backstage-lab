@@ -1,6 +1,6 @@
 app:
   # Should be the same as backend.baseUrl when using the `app-backend` plugin.
-  baseUrl: phobos.butterflycluster.com:443
+  baseUrl: https://phobos.butterflycluster.com:443
 
 backend:
   # Note that the baseUrl should be the URL that the browser and other clients
