@@ -30,6 +30,7 @@ node_modules/
 # dotenv environment variables file
 .env
 .env.test
+.env.prod
 
 # Build output
 dist
@@ -49,3 +50,6 @@ site
 
 # vscode database functionality support files
 *.session.sql
+
+# joe
+*~
