@@ -13,6 +13,13 @@ backend:
   # all interfaces, the most permissive setting. The right value depends on your specific deployment.
   listen: ':7007'
 
+  backend:
+    cors:
+      origin: 'https://phobos.butterflycluster.com'
+      methods: [ 'GET', 'POST', 'PUT', 'DELETE', 'OPTIONS' ]
+      credentials: true
+      allowedHeaders: [ 'Authorization', 'Content-Type', 'X-Requested-With', 'Origin', 'Accept', 'Client-Security-Token', 'Accept-Encoding', 'Accept-Language', 'Host', 'Referer', 'User-Agent' ]
+
   # config options: https://node-postgres.com/api/client
   database:
     client: pg
