@@ -73,6 +73,7 @@ catalog:
     #     - allow: [User, Group]
     - type: url
       target: https://github.com/kingfadzi/homelab/blob/main/catalog-infos/all.yaml
+        - allow: [Component, System, API, Resource, Location, Group]
 
     - type: url
       target: https://github.com/kingfadzi/software-templates/blob/main/scaffolder-templates/create-react-app/template.yaml
