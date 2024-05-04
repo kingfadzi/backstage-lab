@@ -76,6 +76,10 @@ catalog:
         - allow: [Component, System, API, Resource, Location, Group]
 
     - type: url
+      target: https://github.com/kingfadzi/homelab/blob/main/catalog-infos/infrastructure-team.yaml
+        - allow: [Group]
+        
+    - type: url
       target: https://github.com/kingfadzi/software-templates/blob/main/scaffolder-templates/create-react-app/template.yaml
       rules:
         - allow: [ Template ]
